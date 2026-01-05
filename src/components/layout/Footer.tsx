@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -11,10 +11,10 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">P</span>
+                <span className="text-primary-foreground font-display font-bold text-xl">E</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-display font-bold text-lg leading-tight">PrecisionStripe</span>
+                <span className="font-display font-bold text-lg leading-tight">Echoline Marking</span>
                 <span className="text-primary text-xs font-medium tracking-wider">PARKING LOT STRIPING</span>
               </div>
             </div>
@@ -59,17 +59,10 @@ export function Footer() {
             <h4 className="font-display font-bold text-lg mb-4">Contact Us</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-primary mt-0.5" />
-                <div>
-                  <p className="text-sm text-white/70">Call Us</p>
-                  <a href="tel:+15551234567" className="font-semibold hover:text-primary transition-colors">(555) 123-4567</a>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5" />
                 <div>
                   <p className="text-sm text-white/70">Email</p>
-                  <a href="mailto:info@precisionstripe.com" className="font-semibold hover:text-primary transition-colors">info@precisionstripe.com</a>
+                  <a href="mailto:Admin@echolinemarking.com" className="font-semibold hover:text-primary transition-colors">Admin@echolinemarking.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -89,7 +82,7 @@ export function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/50 text-sm">
-              © {new Date().getFullYear()} PrecisionStripe. All rights reserved.
+              © {new Date().getFullYear()} Echoline Marking. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link to="/contact" className="text-white/50 hover:text-primary text-sm transition-colors">Privacy Policy</Link>

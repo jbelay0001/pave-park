@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, Shield, Clock, Award, ArrowRight, Phone } from "lucide-react";
+import { CheckCircle, Shield, Clock, Award, ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-parking.jpg";
 import adaImage from "@/assets/ada-striping.jpg";
 
@@ -91,12 +91,6 @@ export default function Index() {
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>
-              <Button asChild variant="heroOutline" size="xl">
-                <a href="tel:+15551234567">
-                  <Phone className="w-5 h-5" />
-                  (555) 123-4567
-                </a>
-              </Button>
             </div>
           </div>
         </div>
@@ -167,7 +161,7 @@ export default function Index() {
             <div>
               <span className="text-primary font-semibold text-sm tracking-wider uppercase mb-4 block">Why Choose Us</span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-                The PrecisionStripe Difference
+                The Echoline Marking Difference
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
                 With over 15 years of experience, we've perfected the art of parking lot striping. 
