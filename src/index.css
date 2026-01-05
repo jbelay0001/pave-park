@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 10%;
 
-    --primary: 174 72% 45%;
+    --primary: 178 65% 42%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 20% 10%;
@@ -24,7 +24,7 @@
     --muted: 220 10% 96%;
     --muted-foreground: 220 10% 40%;
 
-    --accent: 174 72% 40%;
+    --accent: 178 65% 38%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,26 +32,26 @@
 
     --border: 220 10% 90%;
     --input: 220 10% 90%;
-    --ring: 174 72% 45%;
+    --ring: 178 65% 42%;
 
     --radius: 0.5rem;
 
     /* Custom tokens */
     --asphalt: 220 15% 15%;
     --asphalt-light: 220 10% 25%;
-    --stripe-turquoise: 174 72% 45%;
-    --stripe-turquoise-hover: 174 72% 40%;
+    --stripe-turquoise: 178 65% 42%;
+    --stripe-turquoise-hover: 178 65% 36%;
     --safety-orange: 30 100% 50%;
     
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(220 15% 12%) 0%, hsl(220 15% 20%) 100%);
-    --gradient-turquoise: linear-gradient(135deg, hsl(174 72% 45%) 0%, hsl(174 72% 35%) 100%);
+    --gradient-turquoise: linear-gradient(135deg, hsl(178 65% 42%) 0%, hsl(178 65% 32%) 100%);
     --gradient-overlay: linear-gradient(180deg, hsla(220, 15%, 10%, 0.9) 0%, hsla(220, 15%, 10%, 0.7) 100%);
 
     /* Shadows */
     --shadow-card: 0 4px 20px -4px hsla(220, 15%, 10%, 0.1);
     --shadow-elevated: 0 20px 40px -12px hsla(220, 15%, 10%, 0.2);
-    --shadow-turquoise: 0 8px 30px -8px hsla(174, 72%, 45%, 0.4);
+    --shadow-turquoise: 0 8px 30px -8px hsla(178, 65%, 42%, 0.35);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -73,7 +73,7 @@
     --popover: 220 15% 15%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 174 72% 45%;
+    --primary: 178 65% 42%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 15% 20%;
@@ -82,7 +82,7 @@
     --muted: 220 15% 20%;
     --muted-foreground: 220 10% 60%;
 
-    --accent: 174 72% 45%;
+    --accent: 178 65% 42%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -90,7 +90,7 @@
 
     --border: 220 15% 25%;
     --input: 220 15% 25%;
-    --ring: 174 72% 45%;
+    --ring: 178 65% 42%;
   }
 }
 
@@ -145,8 +145,8 @@
       90deg,
       transparent,
       transparent 40px,
-      hsl(174 72% 45% / 0.1) 40px,
-      hsl(174 72% 45% / 0.1) 80px
+      hsl(178 65% 42% / 0.1) 40px,
+      hsl(178 65% 42% / 0.1) 80px
     );
     background-size: 160px 100%;
   }
