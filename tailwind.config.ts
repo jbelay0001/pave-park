@@ -52,8 +52,8 @@ export default {
           light: "hsl(var(--asphalt-light))",
         },
         stripe: {
-          yellow: "hsl(var(--stripe-yellow))",
-          "yellow-hover": "hsl(var(--stripe-yellow-hover))",
+          turquoise: "hsl(var(--stripe-turquoise))",
+          "turquoise-hover": "hsl(var(--stripe-turquoise-hover))",
         },
         safety: {
           orange: "hsl(var(--safety-orange))",
