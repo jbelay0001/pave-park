@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -22,10 +22,10 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">P</span>
+              <span className="text-primary-foreground font-display font-bold text-xl">E</span>
             </div>
             <div className="flex flex-col">
-              <span className="text-white font-display font-bold text-lg leading-tight">PrecisionStripe</span>
+              <span className="text-white font-display font-bold text-lg leading-tight">Echoline Marking</span>
               <span className="text-primary text-xs font-medium tracking-wider">PARKING LOT STRIPING</span>
             </div>
           </Link>
@@ -50,10 +50,6 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+15551234567" className="flex items-center gap-2 text-white/80 hover:text-primary transition-colors">
-              <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">(555) 123-4567</span>
-            </a>
             <Button asChild variant="hero" size="lg">
               <Link to="/contact">Get Free Quote</Link>
             </Button>
@@ -88,10 +84,6 @@ export function Header() {
                   {link.name}
                 </Link>
               ))}
-              <a href="tel:+15551234567" className="flex items-center gap-2 text-white/80 py-2">
-                <Phone className="w-4 h-4" />
-                <span className="font-medium">(555) 123-4567</span>
-              </a>
               <Button asChild variant="hero" size="lg" className="mt-2">
                 <Link to="/contact">Get Free Quote</Link>
               </Button>

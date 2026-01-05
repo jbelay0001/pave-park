@@ -3,21 +3,21 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock, CheckCircle } from "lucide-react";
+import { Mail, MapPin, Clock, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
   {
-    icon: Phone,
-    title: "Call Us",
-    details: "(555) 123-4567",
-    subtext: "Mon-Fri 7AM-6PM",
-  },
-  {
     icon: Mail,
     title: "Email Us",
-    details: "info@precisionstripe.com",
+    details: "Admin@echolinemarking.com",
     subtext: "We respond within 24 hours",
+  },
+  {
+    icon: MapPin,
+    title: "Service Area",
+    details: "Greater Metro Area",
+    subtext: "50+ mile service radius",
   },
   {
     icon: MapPin,
