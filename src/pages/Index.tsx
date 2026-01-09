@@ -51,7 +51,7 @@ const stats = [
   { value: "Free", label: "Estimates" },
   { value: "100%", label: "Compliance Rate" },
   { value: "24hr", label: "Quote Response" },
-  { value: "Licensed", label: "& Insured" },
+  { value: "Fully", label: "Insured" },
 ];
 
 export default function Index() {
