@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Building2, ShoppingBag, Factory, Church, Building, GraduationCap, Stethoscope, Hotel } from "lucide-react";
+import { ArrowRight, Building2, ShoppingBag, Factory, Church, Building, GraduationCap, Stethoscope, Hotel, Route } from "lucide-react";
 
 const industries = [
   {
@@ -21,6 +21,12 @@ const industries = [
     title: "Industrial & Warehouses",
     description: "Heavy-duty striping built to withstand industrial traffic, including forklift lanes and safety zones.",
     services: ["Forklift traffic lanes", "Safety zone marking", "Loading dock striping"],
+  },
+  {
+    icon: Route,
+    title: "Streets & Roadways",
+    description: "Professional road marking for municipalities and private roads, ensuring safe traffic flow and clear guidance.",
+    services: ["Lane striping", "Crosswalk marking", "Curb painting"],
   },
   {
     icon: Stethoscope,
