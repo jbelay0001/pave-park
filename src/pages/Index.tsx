@@ -48,8 +48,10 @@ const benefits = [
 ];
 
 const stats = [
+  { value: "Free", label: "Estimates" },
   { value: "100%", label: "Compliance Rate" },
   { value: "24hr", label: "Quote Response" },
+  { value: "Licensed", label: "& Insured" },
 ];
 
 export default function Index() {
@@ -100,7 +102,7 @@ export default function Index() {
       {/* Stats Section */}
       <section className="bg-asphalt py-12 border-b border-teal/20">
         <div className="container mx-auto px-4">
-          <div className="flex justify-center gap-16 md:gap-24">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl md:text-4xl font-display font-bold text-teal mb-1">
