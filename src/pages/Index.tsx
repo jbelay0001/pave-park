@@ -48,8 +48,8 @@ const benefits = [
 ];
 
 const stats = [
-  { value: "500+", label: "Projects Completed" },
-  { value: "15+", label: "Years Experience" },
+  { value: "Proven", label: "Track Record" },
+  { value: "Expert", label: "Crew" },
   { value: "100%", label: "Compliance Rate" },
   { value: "24hr", label: "Quote Response" },
 ];
@@ -164,7 +164,7 @@ export default function Index() {
                 The <span className="text-teal">Echoline Marking</span> Difference
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                With over 15 years of experience, we've perfected the art of parking lot striping. 
+                With years of hands-on experience, we've perfected the art of parking lot striping. 
                 Our commitment to quality, compliance, and customer satisfaction sets us apart.
               </p>
 
