@@ -124,18 +124,14 @@ export default function WhoWeServe() {
               </h2>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
               <div className="text-center">
-                <div className="text-4xl font-display font-bold text-primary mb-2">500+</div>
-                <div className="text-muted-foreground">Projects Completed</div>
+                <div className="text-4xl font-display font-bold text-primary mb-2">100%</div>
+                <div className="text-muted-foreground">ADA Compliant</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-display font-bold text-primary mb-2">98%</div>
-                <div className="text-muted-foreground">Client Satisfaction</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-display font-bold text-primary mb-2">15+</div>
-                <div className="text-muted-foreground">Years in Business</div>
+                <div className="text-4xl font-display font-bold text-primary mb-2">24hr</div>
+                <div className="text-muted-foreground">Quote Response</div>
               </div>
             </div>
           </div>
