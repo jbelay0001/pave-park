@@ -3,32 +3,16 @@ import { Mail, Phone, MapPin, Clock, CheckCircle } from "lucide-react";
 
 const contactInfo = [
   {
-    icon: Phone,
-    title: "Call Us",
-    details: "(323) 372-7509",
-    subtext: "Mon-Fri 7am-6pm",
-    href: "tel:+13233727509",
-  },
-  {
-    icon: Mail,
-    title: "Email Us",
-    details: "Admin@echolinemarking.com",
-    subtext: "We respond within 24 hours",
-    href: "mailto:Admin@echolinemarking.com",
-  },
-  {
     icon: MapPin,
     title: "Service Area",
     details: "Greater Metro Area",
     subtext: "50+ mile service radius",
-    href: null,
   },
   {
     icon: Clock,
     title: "Response Time",
     details: "Same-Day Quotes",
     subtext: "Fast, reliable service",
-    href: null,
   },
 ];
 
@@ -93,20 +77,14 @@ export default function Contact() {
             </div>
 
             {/* Additional Info Grid */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <div className="grid sm:grid-cols-2 gap-6 mb-12 max-w-lg mx-auto">
               {contactInfo.map((info, index) => (
                 <div key={index} className="bg-muted rounded-xl p-6 text-center">
                   <div className="w-12 h-12 bg-teal/10 rounded-lg flex items-center justify-center mb-4 mx-auto">
                     <info.icon className="w-6 h-6 text-teal" />
                   </div>
                   <h3 className="font-semibold text-foreground mb-1">{info.title}</h3>
-                  {info.href ? (
-                    <a href={info.href} className="text-lg font-medium text-teal hover:underline">
-                      {info.details}
-                    </a>
-                  ) : (
-                    <p className="text-lg font-medium text-foreground">{info.details}</p>
-                  )}
+                  <p className="text-lg font-medium text-foreground">{info.details}</p>
                   <p className="text-sm text-muted-foreground">{info.subtext}</p>
                 </div>
               ))}
