@@ -68,8 +68,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <p className="text-sm text-white/70">Location</p>
-                  <span className="font-semibold">Serving the Greater Metro Area</span>
+                  <p className="text-sm text-white/70">Service Area</p>
+                  <span className="font-semibold">Los Angeles & Orange County</span>
                 </div>
               </li>
             </ul>
