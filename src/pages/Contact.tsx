@@ -86,7 +86,7 @@ export default function Contact() {
                 >
                   <Mail className="w-12 h-12 mx-auto mb-4 text-teal" />
                   <h3 className="text-xl font-display font-bold text-foreground mb-2">Email Us</h3>
-                  <p className="text-xl font-medium text-teal">Admin@echolinemarking.com</p>
+                  <p className="text-lg md:text-xl font-medium text-teal break-all">Admin@echolinemarking.com</p>
                   <p className="text-muted-foreground text-sm mt-2">We respond within 24 hours</p>
                 </a>
               </div>
