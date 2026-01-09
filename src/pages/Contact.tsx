@@ -5,8 +5,8 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Service Area",
-    details: "Greater Metro Area",
-    subtext: "50+ mile service radius",
+    details: "Los Angeles & Orange County",
+    subtext: "Greater LA and OC area",
   },
   {
     icon: Clock,
