@@ -55,6 +55,10 @@ export default {
           grey: "hsl(var(--stripe-grey))",
           "grey-hover": "hsl(var(--stripe-grey-hover))",
         },
+        teal: {
+          DEFAULT: "hsl(var(--teal))",
+          hover: "hsl(var(--teal-hover))",
+        },
         safety: {
           orange: "hsl(var(--safety-orange))",
         },
