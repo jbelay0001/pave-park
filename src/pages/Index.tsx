@@ -48,8 +48,6 @@ const benefits = [
 ];
 
 const stats = [
-  { value: "Proven", label: "Track Record" },
-  { value: "Expert", label: "Crew" },
   { value: "100%", label: "Compliance Rate" },
   { value: "24hr", label: "Quote Response" },
 ];
